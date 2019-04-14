@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>bcf980b3-f8ca-418d-971a-96f596d35331</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>PlexDbContext</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)DatabaseContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DatabaseContext.Models.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Account.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Blob.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Cloudsync_File.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Device.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Directory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\External_Metadata_Item.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\External_Metadata_Source.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Fts4_Metadata_Title.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Fts4_Metadata_Titles_Docsize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Fts4_Metadata_Titles_Segdir.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Fts4_Metadata_Titles_Segment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Fts4_Metadata_Titles_Stat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Fts4_Tag_Title.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Fts4_Tag_Titles_Docsize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Fts4_Tag_Titles_Segdir.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Fts4_Tag_Titles_Segment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Fts4_Tag_Titles_Stat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Library_Section.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Library_Section_Permission.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Library_Timeline_Entry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Locatable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Location.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Locations_Node.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Locations_Parent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Locations_Rowid.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Location_Place.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Media_Grab.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Media_Item.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Media_Item_Setting.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Media_Metadata_Mapping.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Media_Part.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Media_Part_Setting.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Media_Provider_Resource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Media_Stream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Media_Subscription.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Metadata_Item.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Metadata_Item_Account.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Metadata_Item_Cluster.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Metadata_Item_Clustering.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Metadata_Item_Setting.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Metadata_Item_View.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Metadata_Relation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Play_Queue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Play_Queue_Generator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Play_Queue_Item.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Plugin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Plugin_Permission.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Plugin_Prefix.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Preference.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Schema_Migration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Section_Location.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Spellfix_Metadata_Titles_Vocab.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Spellfix_Tag_Titles_Vocab.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Sqlite_Sequence.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Sqlite_Stat1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Statistics_Bandwidth.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Statistics_Medium.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Stream_Type.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Synced_Ancestor_Item.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Synced_Library_Section.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Synced_Metadata_Item.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Synced_Play_Queue_Generator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Synchronization_File.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Sync_Schema_Version.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Tag.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Tagging.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\Versioned_Metadata_Item.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TableModels\View_Setting.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)FolderNesting.md" />
+  </ItemGroup>
+</Project>

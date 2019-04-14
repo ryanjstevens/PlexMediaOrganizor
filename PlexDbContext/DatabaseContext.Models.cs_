@@ -1,0 +1,25 @@
+using System.Data.Entity;
+namespace PlexMediaManager
+{
+
+	public partial class DatabaseContext : DbContext
+{
+		
+        //public DbSet<Fts4_Metadata_Title>Fts4_Metadata_Titles{get;set;}
+
+
+        //public DbSet<Fts4_Tag_Title>Fts4_Tag_Titles{get;set;}
+
+        //public DbSet<Schema_Migration>Schema_Migrations{get;set;}
+
+        //public DbSet<Sqlite_Sequence>Sqlite_Sequences{get;set;}
+		
+        //public DbSet<Sqlite_Stat1>Sqlite_Stat1{get;set;}
+}
+}
+
+//Fts4_Metadata_Titles
+//Fts4_Tag_Titles
+//Schema_Migrations
+//Sqlite_Sequences
+//Sqlite_Stat1
